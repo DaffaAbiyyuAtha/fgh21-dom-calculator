@@ -31,7 +31,7 @@ body {
 .button-gray {
   width: 88px;
   height: 88px;
-  border-radius: 50%;
+  border-radius: 88px;
   font-size: 34;
   font-weight: bold;
   background-color: #a5a5a5;
@@ -41,7 +41,7 @@ body {
 .button-yellow {
   width: 88px;
   height: 88px;
-  border-radius: 50px;
+  border-radius: 88px;
   font-size: 34;
   font-weight: bold;
   color: white;
@@ -51,7 +51,7 @@ body {
 .button-black {
   width: 88px;
   height: 88px;
-  border-radius: 50px;
+  border-radius: 88px;
   font-size: 34;
   font-weight: bold;
   color: white;
@@ -63,4 +63,7 @@ body {
   width: 190px;
   text-align: left;
   padding-left: 35px;
+}
+button:hover {
+  background-color: #ffffff75;
 }
